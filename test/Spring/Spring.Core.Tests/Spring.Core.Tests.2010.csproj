@@ -128,6 +128,7 @@
     </Compile>
     <Compile Include="Collections\CaseInsensitiveHashtableTests.cs" />
     <Compile Include="Collections\Generic\ReadOnlyDictionaryTests.cs" />
+    <Compile Include="Collections\Generic\LinkedHashDictionaryTest.cs" />
     <Compile Include="Collections\HashedSetTests.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -872,6 +873,8 @@
     <Content Include="Data\Spring\Context\Support\SPRNET-192.xml" />
     <Content Include="Data\Spring\Objects\Factory\concurrent.xml" />
     <Content Include="Data\Spring\Objects\Factory\Config\AnotherDaoConfig.xml" />
+    <Content Include="Data\Spring\Objects\Factory\Config\SecondPropertyPlaceholderConfigurer.xml" />
+    <Content Include="Data\Spring\Objects\Factory\Config\FirstPropertyPlaceholderConfigurer.xml" />
     <Content Include="Data\Spring\Objects\Factory\Config\PPCWithTypesTests.xml" />
     <Content Include="Data\Spring\Objects\Factory\Config\TypeAliases.xml" />
     <Content Include="Data\Spring\Objects\Factory\Config\DaoConfig.xml" />
@@ -952,6 +955,12 @@
     <Content Include="Spring.Core.Tests.dll.config" />
     <EmbeddedResource Include="Resources\Spring.Context.Tests.de-AT.resx" />
     <EmbeddedResource Include="Resources\Spring.Context.Tests.de.resx" />
+    <EmbeddedResource Include="Resources\Spring.Context.Tests.sr-Cyrl-RS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Tesla.sr-Cyrl-RS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Validation\ValidationNamespaceParserTests_WhenConfigFileIsNotValid.xml" />
     <EmbeddedResource Include="Validation\ValidationNamespaceParserTests_WhenConfigFileIsValid.xml" />
     <EmbeddedResource Include="Util\ConfigXmlDocumentTests_SampleConfig.xml" />
